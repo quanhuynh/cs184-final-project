@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<style>
+body {
+padding: 100px;
+width: 1000px;
+margin: auto;
+text-align: left;
+font-weight: 300;
+font-family: 'Open Sans', sans-serif;
+color: #121212;
+}
+h1, h2, h3, h4 {
+font-family: 'Source Sans Pro', sans-serif;
+}
+</style>
+<title>CS 184 Final Project Proposal</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link href="https://fonts.googleapis.com/css?family=Open+Sans|Source+Sans+Pro" rel="stylesheet">
+</head>
+
+
+<body>
+
+<h1 align="middle">CS 184: Computer Graphics and Imaging, Spring 2017</h1>
+<h1 align="middle">Final Project Proposal</h1>
+<h2 align="middle">Quan Huynh CS184-adn, Michael Wan CS184-acm</h2>
+
+<br><br>
+
+<div>
+
+<h2 align="middle">Overview</h2>
+<p>For our project we will be rendering hair in a team consisting of Quan Huynh and Michael Wan. We will mainly be using Marschner’s method to render hair. As a stretch goal, we would like to render wet hair. </p>
+
+<h2 align="middle">Problem</h2>
+<p>As it appears, hair is not easy to render with what we have implemented so far in class. One of the classic ways to render hair is to render it as a collection of fibers or as a group. However, when it comes to realistic rendering, this becomes a problem. In real life, individual hair strands behave and reflect light differently. We plan on implementing Marschner’s method of individual hair rendering. The most difficult part will be understanding his research and mathematical models.</p>
+
+<h2 align="middle">Goals and Deliverables</h2>
+<p>We plan on creating rendered images of hair under different types of lighting. This also includes different colors of hair and how they affect light reflection. We expect that the baseline (minimum) of this project is to successfully implement Marschner’s rendering method, understand the mathematical models, and use them to render hair under lighting. </p>
+<p>Our aspirational plans include building off of Marschner’s method with d’Eon’s energy conserving model, and possibly rendering wet hair and pose a comparison between wet hair and dry hair under the same conditions (colors, lighting, etc.). </p>
+
+<h2 align="middle">Schedule</h2>
+<h4>Week 1</h4>
+<p> During the first week, we plan on reading through all of the research papers and understanding at a sufficient level all the mathematical models and algorithms. We could also begin moving these models into our code. </p>
+<h4>Week 2</h4>
+<p> We plan to spend most of second week writing the code for rendering dry hair</p>
+<h4>Week 3</h4>
+<p> Hopefully by the third week we will have most of the code finished and tested and images rendered. If all goes well, by the end of the third week we will look into implementing d’Eon’s model.</p>
+<h4>Week 4</h4>
+<p>We are leaving week 4 as our buffer zone just in case we are behind schedule. If we are on schedule or are ahead, we will use week 4 to implement wet hair rendering. </p>
+
+<h2> Resources </h2>
+<p>Light Scattering from Human Hair Fibers: http://graphics.stanford.edu/papers/hair/hair-sg03final.pdf</p>
+<p>An Energy Conserving Hair Reflectance Model: http://www.eugenedeon.com/wp-content/uploads/2014/04/egsrhair.pdf</p>
+<p>Wetting Effects in Hair Simulation: http://nishitalab.org/user/witawat/resources/papers/wetHair_pg2012.pdf</p>
+<p>Mitsuba Rendrer: http://mitsuba-renderer.org/</p>
+
+</body>
+</html>
